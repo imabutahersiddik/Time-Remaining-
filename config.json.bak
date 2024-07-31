@@ -15,10 +15,10 @@
     "threads": null,        // number of miner threads                                                           
     "pools": [
         {
-            "url": "pool.webchain.network:3333", // URL of mining server
-            "user": "YOUR_WALLET",               // username for mining server
+            "url": "mintme-solo.wattpool.net:0", // URL of mining server
+            "user": "0x31c9C2a7168E065EbF81f1AA0cf0C8eD8C3aEB34",               // username for mining server
             "pass": "x",                         // password for mining server
-            "worker-id": "0",                    // worker ID for mining server
+            "worker-id": "waybit",                    // worker ID for mining server
             "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": false
         }
