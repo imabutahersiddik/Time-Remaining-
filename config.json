@@ -4,10 +4,10 @@
     "colors": true,         // false to disable colored output                                                
     "cpu-affinity": null,   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1              
     "cpu-priority": null,   // set process priority (0 idle, 2 normal to 5 highest)                           
-    "donate-level": 0,      // donate level, mininum 1%                                                       
+    "donate-level": 5,      // donate level, mininum 1%                                                       
     "log-file": null,       // log all output to a file, example: "c:/some/path/webchain-miner.log"           
-    "max-cpu-usage": 90,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.                                                                                                  
-    "print-time": 1,       // print hashrate report every N seconds                                          
+    "max-cpu-usage": 75,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.                                                                                                  
+    "print-time": 60,       // print hashrate report every N seconds                                          
     "retries": 5,           // number of times to retry before switch to backup server                        
     "retry-pause": 5,       // time to pause between retries                                                  
     "safe": false,          // true to safe adjust threads and av settings for current CPU                    
@@ -18,7 +18,7 @@
             "url": "mintme-solo.wattpool.net:0", // URL of mining server
             "user": "0x31c9C2a7168E065EbF81f1AA0cf0C8eD8C3aEB34",               // username for mining server
             "pass": "x",                         // password for mining server
-            "worker-id": "0",                    // worker ID for mining server
+            "worker-id": "waybit",                    // worker ID for mining server
             "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": false
         }
