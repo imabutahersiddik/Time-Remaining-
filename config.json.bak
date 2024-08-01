@@ -15,7 +15,7 @@
     "threads": null,        // number of miner threads                                                           
     "pools": [
         {
-                "url": "web-ko1.gonspool.com:3333",                     // URL of mining server -- verdiss
+                "url": "pool.webchain.network:3333",                     // URL of mining server -- verdiss
                 "user": "0x31c9C2a7168E065EbF81f1AA0cf0C8eD8C3aEB34",   // username for mining server
                 "pass": "x",                                            // password for mining server
                 "worker-id": "p2",                                      // worker ID for mining server
@@ -23,10 +23,10 @@
                 "nicehash": false
         },
         {
-                "url": "webchain.wattpool.net:1111",
+                "url": "pool.webchain.network:3333",
                 "user": "0x31c9C2a7168E065EbF81f1AA0cf0C8eD8C3aEB34",
                 "pass": "x",
-                "worker-id": "i7-8700k",
+                "worker-id": "p2",
                 "keepalive": false,
                 "nicehash": false
         }
